@@ -7,4 +7,4 @@ COPY . .
 ENV NODE_ENV production
 ENV production 1
 EXPOSE 3002
-CMD ["node", "main.js"]
+CMD ["node", "index.js"]
